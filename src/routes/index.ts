@@ -4,6 +4,6 @@ import { infectadosRoutes } from "./infectados2m.routes";
 
 const router = Router();
 
-router.use("", infectadosRoutes);
+router.use("/", infectadosRoutes);
 
 export { router };
